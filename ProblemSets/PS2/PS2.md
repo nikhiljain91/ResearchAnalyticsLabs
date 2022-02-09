@@ -28,7 +28,7 @@ library(mvoutlier)
 ```
 If you want to use the `tidyverse` package or any other packages, load them here as well. We will not be using `tidyverse` in the following example code, but feel free to if you feel comfortable doing so.
 
-Next, we’ll need code that loads in our data. Remember that you can use the function `file.choose()` in place of a file location to pull up an interactive prompt to help you find your files. Here, we demonstrate this assuming that the data file is located in our current working directory—your data file is most likely not located in your current working directory unless you’ve moved it there or changed your working directory to the folding containing your data file.
+Next, we’ll need code that loads in our data. Remember that you can use the function `file.choose()` in place of a file location to pull up an interactive prompt to help you find your files. Here, we demonstrate this assuming that the data file is located in our current working directory—your data file is most likely not located in your current working directory unless you’ve moved it there or changed your working directory to the folder containing your data file.
 
 ```r
 # replace "f10IntercrossMissing.csv", including the quotes, with file.choose() if desired.
